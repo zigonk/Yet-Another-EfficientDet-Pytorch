@@ -3,8 +3,8 @@ import os
 from PIL import Image, ImageOps
 from tqdm import tqdm
 
-IMAGE_TRAIN_PATH = "/home/nqthuc/Documents/Zalo/TrafficDet/dataset/trafic_sign/train"
-IMAGE_VAL_PATH = "/home/nqthuc/Documents/Zalo/TrafficDet/dataset/trafic_sign/val"
+IMAGE_TRAIN_PATH = "./datasets/trafic_sign/train"
+IMAGE_VAL_PATH = ".datasets/trafic_sign/val"
 
 def padding_imgs(img_path):
     for fname in tqdm(os.listdir(img_path)):

@@ -3,9 +3,9 @@ import json
 from shutil import copyfile
 from tqdm import tqdm
 
-ANNOTATION_PATH = "/home/nqthuc/Documents/Zalo/TrafficDet/annotations"
-IMAGE_PATH = "/home/nqthuc/Documents/Zalo/TrafficDet/za_traffic_2020/traffic_train/images"
-DATA_PATH = "./dataset/trafic_sign"
+ANNOTATION_PATH = "./annotations"
+IMAGE_PATH = "../za_traffic_2020/traffic_train/images"
+DATA_PATH = "./datasets/trafic_sign"
 TRAIN_SET_NAME = "train"
 VAL_SET_NAME = "val"
 
