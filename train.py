@@ -109,7 +109,7 @@ def train(opt):
                   'collate_fn': collater,
                   'num_workers': opt.num_workers}
 
-    input_sizes = [1622, 1622, 1622, 1622, 1622, 1622, 1622, 1622, 1536]
+    input_sizes = [1632, 1632, 1632, 1632, 1632, 1632, 1632, 1632, 1536]
     training_set = CocoDataset(root_dir=os.path.join(opt.data_path, params.project_name), set=params.train_set,
                                transform=transforms.Compose([Normalizer(mean=params.mean, std=params.std),
                                                              Augmenter(),
