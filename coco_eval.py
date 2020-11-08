@@ -49,7 +49,7 @@ print(f'running coco-style evaluation on project {project_name}, weights {weight
 params = yaml.safe_load(open(f'projects/{project_name}.yml'))
 obj_list = params['obj_list']
 
-input_sizes = [1632, 1632, 1632, 1632, 1632, 1632, 1632, 1632, 1536]
+input_sizes = [1536, 1536, 1536, 1536, 1536, 1536, 1536, 1536, 1536]
 
 
 def evaluate_coco(img_path, set_name, image_ids, coco, model, threshold=0.05):
