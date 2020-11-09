@@ -8,7 +8,7 @@ mean: [0.485, 0.456, 0.406]
 std: [0.229, 0.224, 0.225]
 
 # this anchor is adapted to the dataset
-anchors_scales: '[2 ** 0, 2 ** (1.0 / 3.0), 2 ** (2.0 / 3.0)]'
+anchors_scales: '[0.25, 0.35, 0.45]'
 anchors_ratios: '[(1.0, 1.0), (0.9, 1.1), (1.1, 0.9)]'
 
 obj_list: ["C\u1ea5m ng\u01b0\u1ee3c chi\u1ec1u", "C\u1ea5m d\u1eebng v\u00e0 \u0111\u1ed7", "C\u1ea5m r\u1ebd", "Gi\u1edbi h\u1ea1n t\u1ed1c \u0111\u1ed9", "C\u1ea5m c\u00f2n l\u1ea1i", "Nguy hi\u1ec3m", "Hi\u1ec7u l\u1ec7nh"]
